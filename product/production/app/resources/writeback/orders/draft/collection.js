@@ -1,0 +1,86 @@
+define([
+    'main/ADK',
+    'app/resources/writeback/orders/draft/model',
+], function(ADK, DraftOrder) {
+
+    'use strict';
+
+    return (function() {
+
+        //============================= CONSTANTS =============================
+        var DEFAULT_ATTRIBUTES = {
+            contentType: 'application/json',
+            type: 'POST'
+        };
+
+        //============================= UTILITIES =============================
+        var getDefaultQueryParams = function() {
+            if (_.isUndefined(this.patient) || _.isUndefined(this.user)) {
+                return {};
+            }
+
+            var siteCode = this.user.get('site');
+            var provider = _.get(this.user.get('duz'), siteCode);
+
+            return {
+                patientUid: this.patient.get('uid'),
+                authorUid: 'urn:va:user:' + siteCode + ':' + provider,
+                domain: 'ehmp-order',
+                ehmpState: 'draft'
+            };
+        };
+
+        var select = function(queryParams) {
+            var params = _.extend(getDefaultQueryParams.call(this), queryParams);
+
+            var attributes = DEFAULT_ATTRIBUTES;
+            attributes.data = JSON.stringify(params);
+
+            this.fetch(attributes);
+        };
+
+        //=========================== API FUNCTIONS ===========================
+        var parse = function(resp, options) {
+            return _.get(resp, 'data.items', {});
+        };
+
+        var getUrl = function(method, options) {
+            var params = {
+                pid: this.patient.get('pid')
+            };
+
+            var criteria = options.criteria || {};
+
+            if (this.patient.has("acknowledged")) {
+                criteria._ack = true;
+            }
+
+            var url = ADK.ResourceService.buildUrl(this.resource, criteria);
+            return ADK.ResourceService.replaceURLRouteParams(unescape(url), params);
+        };
+
+        var selectAll = function() {
+            select.call(this);
+        };
+
+        var selectWhere = function(queryParameters) {
+            select.call(this, queryParameters);
+        };
+
+        //============================ PUBLIC API =============================
+        var draftResources = ADK.Resources.Writeback.Collection.extend({
+            resource: 'orders-find-draft',
+            vpr: 'clinical-objects',
+            idAttribute: 'uid',
+            model: DraftOrder,
+
+            parse: parse,
+            getUrl: getUrl,
+
+            selectAll: selectAll,
+            selectWhere: selectWhere
+        });
+
+        return draftResources;
+    })();
+});

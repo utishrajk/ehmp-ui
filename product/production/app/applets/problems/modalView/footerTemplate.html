@@ -1,0 +1,15 @@
+<div class="pull-left">
+{{#hasPermission 'edit-condition-problem'}}
+    {{#unless siteCodeMatches}}
+    	<p class="color-pure-black"><strong>Only data originating in your facility may be edited.</strong></p>
+    {{/unless}}
+{{/hasPermission}}
+</div>
+<div class="pull-right">
+    {{#hasPermission 'edit-condition-problem'}}
+    	{{#if siteCodeMatches}}
+    		{{ui-button "Edit" classes="btn btn-primary btn-sm" title="Press enter to edit" id="editBtn"}}
+    	{{/if}}
+	{{/hasPermission}}
+    <button type="button" class="btn btn-default btn-sm" data-dismiss="modal" title="Press enter to close.">Close</button>
+</div>

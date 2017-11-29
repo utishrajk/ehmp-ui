@@ -1,0 +1,151 @@
+<div class="detail-modal-content">
+    <div class="row">
+        <div class="col-xs-12">
+            <p>
+                <span class="right-padding-xs"><strong>Name:</strong></span>
+                <span>
+                    {{#if cdcFullVaccineName}}
+                        {{cdcFullVaccineName}}
+                    {{else if standardizedName}}
+                        {{standardizedName}}
+                    {{else}}
+                        {{qualifiedName}}
+                    {{/if}}
+                </span>
+            </p>
+        </div>
+    </div>
+    <div class="row">
+        {{#if administeredDateTime}}
+        <div class="col-xs-3">
+            <p>
+                <span><strong>Date administered:</strong></span><br />
+                <span>{{administeredFormatted}}</span>
+            </p>
+        </div>
+        {{/if}}
+        {{#if seriesName}}
+        <div class="col-xs-3">
+            <p>
+                <span><strong>Series:</strong></span><br />
+                <span>{{seriesName}}</span>
+            </p>
+        </div>
+        {{/if}}
+        {{#if manufacturer}}
+        <div class="col-xs-3">
+            <p>
+                <span><strong>Manufacturer:</strong></span><br />
+                <span>{{manufacturer}}</span>
+            </p>
+        </div>
+        {{/if}}
+        {{#if lotNumber}}
+        <div class="col-xs-3">
+            <p>
+                <span><strong>Lot #:</strong></span><br />
+                <span>{{lotNumber}}</span>
+            </p>
+        </div>
+        {{/if}}
+        {{#if expirationDate}}
+        <div class="col-xs-3">
+            <p>
+                <span><strong>Expiration date:</strong></span><br />
+                <span>{{formatDate expirationDate "MM/DD/YYYY"}}</span>
+            </p>
+        </div>
+        {{/if}}
+        {{#if locationName}}
+        <div class="col-xs-3">
+            <p>
+                <span><strong>Location:</strong></span><br />
+                <span>{{locationName}}</span>
+            </p>
+        </div>
+        {{/if}}
+        {{#if dosage}}
+        <div class="col-xs-3">
+            <p>
+                <span><strong>Dosage/Unit:</strong></span><br />
+                <span>{{dosage}}{{dosageUnits}}</span>
+            </p>
+        </div>
+        {{/if}}
+        {{#ifExp routeOfAdministration "||" siteOfAdministration}}
+        <div class="col-xs-3">
+            <p>
+                <span><strong>Admin route/site:</strong></span><br />
+                <span>{{routeOfAdministration}} {{siteOfAdministration}}</span>
+            </p>
+        </div>
+        {{/ifExp}}
+    </div>
+    {{#if vis}}
+
+            <div class="row">
+                <div class="col-xs-12">
+                    <p>
+                        <span><strong>Vaccine Information Statement(s) (VIS):</strong></span><br />
+                        {{#each vis}}
+                            <span>{{visName}} - Edition Date: {{formatDate editionDate}} ({{language}})</span><br />
+                        {{/each}}
+                    </p>
+                </div>
+            </div>
+
+    {{/if}}
+    {{#if performerName}}
+    <div class="row">
+        <div class="col-xs-3">
+            <p>
+                <span><strong>Administered by:</strong></span><br />
+                <span>{{performerName}}</span>
+            </p>
+        </div>
+    </div>
+    {{/if}}
+    {{#if orderingProvider}}
+    <div class="row">
+        <div class="col-xs-3">
+            <p>
+                <span><strong>Ordering provider:</strong></span><br />
+                <span>{{orderingProvider}}</span>
+            </p>
+        </div>
+    </div>
+    {{/if}}
+    {{#if eventInformationSource}}
+    <div class="row">
+        <div class="col-xs-12">
+            <p>
+                <span><strong>Information source:</strong></span><br />
+                <span>{{eventInformationSource}}</span>
+            </p>
+        </div>
+    </div>
+    {{/if}}
+    {{#if comment}}
+    <div class="row">
+        <div class="col-xs-12">
+            <p>
+                <span><strong>Comment:</strong></span><br />
+                <span>{{comment}}</span>
+            </p>
+        </div>
+    </div>
+    {{/if}}
+    <hr aria-hidden="true" />
+    <form class="form-inline top-margin-sm">
+        <div id="dateRangeFilter"></div>
+    </form>
+    <div class="row bottom-margin-lg">
+        <div class="col-xs-12" id="lrDataTableView" accesskey="r">
+            <div class="panel panel-primary bottom-margin-no bottom-padding-no">
+                <div class="table-responsive">
+                    <div class="js-backgrid"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

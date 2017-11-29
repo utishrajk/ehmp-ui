@@ -1,0 +1,68 @@
+[data-appletid="vitals"] {
+    .a-table table {
+        float: left;
+        width: 49%;
+        margin: 2px;
+        margin-left: 5px;
+        border-right: 1px solid $grey-dark;
+    }
+    .b-table table {
+        float: left;
+        width: 48%;
+        margin-top: 2px;
+    }
+    .a-table, .b-table {
+        tbody {
+            tr:focus {
+                background-color: $primary-lightest;
+            }
+        }
+    }
+    .a-table td,
+    .b-table td {
+        padding: 2px 5px
+    }
+    tr.clickable {
+        cursor: pointer;
+    }
+    tr.clickable:hover {
+        background-color: $primary-lightest;
+    }
+    .gist-item .table-row {
+        min-height: 21px;
+    }
+    .grid-container .gist-item-list .gist-item .selectable.flex-width-2 {
+        padding-right: 0px;
+    }
+    .faux-table .table-row .table-cell {
+        padding-right: 0px;
+    }
+}
+
+[data-tray-width-scale="0.33"] {
+    .collapsibleContainerHeaderRegion {
+        .radio-inline:nth-child(3) {
+            padding-left: 12px;
+        }
+    }
+    .temperatureInputValue {
+        .col-xs-4 {
+            padding: 0px 6px !important;
+        }
+    }
+    .pain-value-po {
+        .help-block {
+            width: 187px;
+        }
+    }
+    .pain-radio-po {
+        .radio-inline:nth-child(3) {
+            padding-left: 12px;
+        }
+    }
+    .circumValue {
+        label {
+            text-transform: capitalize !important;
+        }
+    }
+}
