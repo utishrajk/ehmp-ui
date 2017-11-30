@@ -10,7 +10,7 @@
 #/.chef/berkshelf/cookbooks/
 #Berksfile.lock
 #.vagrant
-node_modules
+#node_modules
 #_SpecRunner.html
 #build
 #npm-debug.log
