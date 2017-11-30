@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+
+  <testsuite name="Test utility function getTreatmentFactors" errors="0" tests="3" failures="0" time="0.028" timestamp="Wed Nov 15 2017 16:02:15 GMT-0500 (EST)">
+    
+      <testcase assertions="0" classname="Test utility function getTreatmentFactors" name="Should return an empty list when there are not exposures" time="0.014">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Test utility function getTreatmentFactors" name="Should return the relevant exposures" time="0.006">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Test utility function getTreatmentFactors" name="Should handle population of existing values" time="0.006">
+        
+      </testcase>
+    
+  </testsuite>
+
+</testsuites>

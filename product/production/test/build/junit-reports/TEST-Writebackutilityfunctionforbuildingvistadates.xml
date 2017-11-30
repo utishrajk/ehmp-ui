@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+
+  <testsuite name="Writeback utility function for building vista dates" errors="0" tests="4" failures="0" time="0.035" timestamp="Wed Nov 15 2017 16:02:16 GMT-0500 (EST)">
+    
+      <testcase assertions="0" classname="Writeback utility function for building vista dates" name="Test passing in undefined date" time="0.006">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Writeback utility function for building vista dates" name="Test date in format YYYY" time="0.006">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Writeback utility function for building vista dates" name="Test date in format MM/YYYY" time="0.009">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Writeback utility function for building vista dates" name="Test date in formation MM/DD/YYYY" time="0.006">
+        
+      </testcase>
+    
+  </testsuite>
+
+</testsuites>

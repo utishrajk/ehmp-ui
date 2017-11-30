@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+
+  <testsuite name="verify getPrimaryProviderDisplay returns the appropriate primaryProvider display name" errors="0" tests="3" failures="0" time="0.022" timestamp="Wed Nov 15 2017 16:02:15 GMT-0500 (EST)">
+    
+      <testcase assertions="0" classname="verify getPrimaryProviderDisplay returns the appropriate primaryProvider display name" name="should return undefined when primaryProvider is undefined in the response" time="0.007">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="verify getPrimaryProviderDisplay returns the appropriate primaryProvider display name" name="should return undefined when primaryProvider.providerDisplayName is undefined in the response" time="0.007">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="verify getPrimaryProviderDisplay returns the appropriate primaryProvider display name" name="should return the primaryProvider.providerDisplayName" time="0.007">
+        
+      </testcase>
+    
+  </testsuite>
+
+</testsuites>

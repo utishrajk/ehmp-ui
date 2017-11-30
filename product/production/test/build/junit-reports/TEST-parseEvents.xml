@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+
+  <testsuite name="parseEvents" errors="0" tests="8" failures="0" time="0.081" timestamp="Wed Nov 15 2017 16:02:12 GMT-0500 (EST)">
+    
+      <testcase assertions="0" classname="parseEvents" name="handles empty object" time="0.008">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="parseEvents" name="handles undefined" time="0.009">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="parseEvents" name="handles empty inpatient" time="0.006">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="parseEvents" name="handles 1 day inpatient" time="0.006">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="parseEvents" name="handles 2 day inpatient" time="0.007">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="parseEvents" name="does not add future events for ongoing admissions" time="0.007">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="parseEvents" name="stops an ongoing admission at next admission date" time="0.026">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="parseEvents" name="allows for duplicate stays at separate facilites" time="0.009">
+        
+      </testcase>
+    
+  </testsuite>
+
+</testsuites>

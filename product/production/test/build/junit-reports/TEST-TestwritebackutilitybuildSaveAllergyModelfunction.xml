@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+
+  <testsuite name="Test writeback utility buildSaveAllergyModel function" errors="0" tests="1" failures="0" time="0.009" timestamp="Wed Nov 15 2017 16:02:12 GMT-0500 (EST)">
+    
+      <testcase assertions="0" classname="Test writeback utility buildSaveAllergyModel function" name="should build the allergy save model given signs/symptoms and observatoin data" time="0.009">
+        
+      </testcase>
+    
+  </testsuite>
+
+</testsuites>

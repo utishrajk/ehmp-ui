@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+
+  <testsuite name="Verify getActivityDateTime returns the correct time." errors="0" tests="4" failures="0" time="0.025" timestamp="Wed Nov 15 2017 16:02:15 GMT-0500 (EST)">
+    
+      <testcase assertions="0" classname="Verify getActivityDateTime returns the correct time." name="should return administeredDateTime if an immunization" time="0.006">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Verify getActivityDateTime returns the correct time." name="should return dateTime if not a discharged patient" time="0.005">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Verify getActivityDateTime returns the correct time." name="should return dateTime if not a discharged patient, (no stay information)" time="0.006">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Verify getActivityDateTime returns the correct time." name="should return stay.dischargedDateTime if a discharged patient" time="0.006">
+        
+      </testcase>
+    
+  </testsuite>
+
+</testsuites>

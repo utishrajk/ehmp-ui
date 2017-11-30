@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+
+  <testsuite name="Writeback utility for saving the clinic/service field" errors="0" tests="2" failures="0" time="0.014" timestamp="Wed Nov 15 2017 16:02:16 GMT-0500 (EST)">
+    
+      <testcase assertions="0" classname="Writeback utility for saving the clinic/service field" name="Should save as a clinic type" time="0.007">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Writeback utility for saving the clinic/service field" name="Should save as a service type" time="0.006">
+        
+      </testcase>
+    
+  </testsuite>
+
+</testsuites>

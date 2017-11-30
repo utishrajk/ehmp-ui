@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+
+  <testsuite name="Determine text to display based on facility code" errors="0" tests="4" failures="0" time="0.028" timestamp="Wed Nov 15 2017 16:02:13 GMT-0500 (EST)">
+    
+      <testcase assertions="0" classname="Determine text to display based on facility code" name="Should return &#39;DOD&#39; for facility code DOD" time="0.005">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Determine text to display based on facility code" name="Should return &#39;NCH&#39; for facility code 500" time="0.006">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Determine text to display based on facility code" name="Should return &#39;No Data&#39; when facility code is empty string" time="0.006">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Determine text to display based on facility code" name="Should return &#39;No Data&#39; when facility code is undefined" time="0.008">
+        
+      </testcase>
+    
+  </testsuite>
+
+</testsuites>

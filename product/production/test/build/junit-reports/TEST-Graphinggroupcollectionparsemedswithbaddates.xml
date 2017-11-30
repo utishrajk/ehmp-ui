@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+
+  <testsuite name="Graphing group collection parse meds with bad dates" errors="0" tests="3" failures="0" time="0.028" timestamp="Wed Nov 15 2017 16:02:16 GMT-0500 (EST)">
+    
+      <testcase assertions="0" classname="Graphing group collection parse meds with bad dates" name="Will return a graphing group with two models where pending and active are on their own rows and 3 are not graphable" time="0.009">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Graphing group collection parse meds with bad dates" name="Will return a graphing group with three model with an active med with good dates, pending, and the rest bad dates with different vaStatus" time="0.009">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Graphing group collection parse meds with bad dates" name="Will return a graphing group with two models with one pending, one expired good date, and two bad dates" time="0.008">
+        
+      </testcase>
+    
+  </testsuite>
+
+</testsuites>

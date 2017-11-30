@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+
+  <testsuite name="Parse utility function for matching immunizations data" errors="0" tests="7" failures="0" time="0.045" timestamp="Wed Nov 15 2017 16:02:12 GMT-0500 (EST)">
+    
+      <testcase assertions="0" classname="Parse utility function for matching immunizations data" name="should not match because administered and inactive" time="0.006">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Parse utility function for matching immunizations data" name="should not match because historical and inactive and not selectable for historic" time="0.006">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Parse utility function for matching immunizations data" name="should not match because nothing matches regex" time="0.005">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Parse utility function for matching immunizations data" name="should match on label" time="0.006">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Parse utility function for matching immunizations data" name="should match on cvxCode" time="0.006">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Parse utility function for matching immunizations data" name="should match on full vaccine name" time="0.006">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Parse utility function for matching immunizations data" name="should match on product name" time="0.006">
+        
+      </testcase>
+    
+  </testsuite>
+
+</testsuites>

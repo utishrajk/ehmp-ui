@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+
+  <testsuite name="Determine if the search parameters validator recognizes valid combinations of search parameters (last name, first name, and ssn is required)" errors="0" tests="1" failures="0" time="0.016" timestamp="Wed Nov 15 2017 16:02:15 GMT-0500 (EST)">
+    
+      <testcase assertions="0" classname="Determine if the search parameters validator recognizes valid combinations of search parameters (last name, first name, and ssn is required)" name="Should return success (last name + first name + SSN)" time="0.016">
+        
+      </testcase>
+    
+  </testsuite>
+
+</testsuites>

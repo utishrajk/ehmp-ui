@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+
+  <testsuite name="Test parse of symptom list for allergy writeback" errors="0" tests="1" failures="0" time="0.009" timestamp="Wed Nov 15 2017 16:02:12 GMT-0500 (EST)">
+    
+      <testcase assertions="0" classname="Test parse of symptom list for allergy writeback" name="should validate the symptom list" time="0.008">
+        
+      </testcase>
+    
+  </testsuite>
+
+</testsuites>

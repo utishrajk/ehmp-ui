@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+
+  <testsuite name="Test utility function get formatSearchErrorMessage" errors="0" tests="4" failures="0" time="0.038" timestamp="Wed Nov 15 2017 16:02:15 GMT-0500 (EST)">
+    
+      <testcase assertions="0" classname="Test utility function get formatSearchErrorMessage" name="Should return generic response if search failed" time="0.006">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Test utility function get formatSearchErrorMessage" name="Should format error message if too many results" time="0.019">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Test utility function get formatSearchErrorMessage" name="Should format error message if code search fails" time="0.006">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Test utility function get formatSearchErrorMessage" name="Should throw unexpected error if response status is not 456" time="0.005">
+        
+      </testcase>
+    
+  </testsuite>
+
+</testsuites>

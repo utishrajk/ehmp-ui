@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+
+  <testsuite name="Determine the &#39;display name" errors="0" tests="6" failures="0" time="0.052" timestamp="Wed Nov 15 2017 16:02:13 GMT-0500 (EST)">
+    
+      <testcase assertions="0" classname="Determine the &#39;display name" name="Should return &#39;ingredientCodeName&#39;" time="0.006">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Determine the &#39;display name" name="Should return &#39;qualifiedName&#39; if ingredientCodeName is empty string" time="0.011">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Determine the &#39;display name" name="Should return &#39;qualifiedName&#39; if ingredientCodeName is undefined" time="0.008">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Determine the &#39;display name" name="Should return the first word from &#39;name&#39; if ingredientCodeName and qualifiedName are undefined" time="0.011">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Determine the &#39;display name" name="Should return the first word from &#39;name&#39; if ingredientCodeName and qualifiedName are empty strings" time="0.006">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Determine the &#39;display name" name="Should return &#39;No Data&#39; when ingredientCodeName name, and qualifiedName are missing" time="0.006">
+        
+      </testcase>
+    
+  </testsuite>
+
+</testsuites>

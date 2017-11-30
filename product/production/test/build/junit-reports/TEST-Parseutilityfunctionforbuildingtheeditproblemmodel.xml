@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+
+  <testsuite name="Parse utility function for building the edit problem model" errors="0" tests="9" failures="0" time="0.077" timestamp="Wed Nov 15 2017 16:02:15 GMT-0500 (EST)">
+    
+      <testcase assertions="0" classname="Parse utility function for building the edit problem model" name="Test copying properties from detail model to the edit model - bare minimum" time="0.009">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Parse utility function for building the edit problem model" name="Test copying onset property" time="0.007">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Parse utility function for building the edit problem model" name="Test copying status property" time="0.006">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Parse utility function for building the edit problem model" name="Test copying acuity property" time="0.014">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Parse utility function for building the edit problem model" name="Test copying provider property" time="0.006">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Parse utility function for building the edit problem model" name="Test copying location property" time="0.006">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Parse utility function for building the edit problem model" name="Test copying comments property" time="0.007">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Parse utility function for building the edit problem model" name="Test copying ien property" time="0.007">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Parse utility function for building the edit problem model" name="Test copying problem text" time="0.012">
+        
+      </testcase>
+    
+  </testsuite>
+
+</testsuites>

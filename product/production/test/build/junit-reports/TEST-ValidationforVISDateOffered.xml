@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+
+  <testsuite name="Validation for VIS Date Offered" errors="0" tests="2" failures="0" time="0.026" timestamp="Wed Nov 15 2017 16:02:12 GMT-0500 (EST)">
+    
+      <testcase assertions="0" classname="Validation for VIS Date Offered" name="Should pass if past or presentDate" time="0.008">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Validation for VIS Date Offered" name="Should fail if future date" time="0.017">
+        
+      </testcase>
+    
+  </testsuite>
+
+</testsuites>

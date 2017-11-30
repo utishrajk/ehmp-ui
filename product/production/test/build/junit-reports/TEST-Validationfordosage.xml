@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+
+  <testsuite name="Validation for dosage" errors="0" tests="5" failures="0" time="0.041" timestamp="Wed Nov 15 2017 16:02:12 GMT-0500 (EST)">
+    
+      <testcase assertions="0" classname="Validation for dosage" name="Should pass if dosage is unspecified" time="0.006">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Validation for dosage" name="Should pass if dosage is a valid number" time="0.007">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Validation for dosage" name="Should fail if dosage is not valid number" time="0.007">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Validation for dosage" name="Should fail if dosage is 0" time="0.006">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Validation for dosage" name="Should fail if dosage is negative" time="0.007">
+        
+      </testcase>
+    
+  </testsuite>
+
+</testsuites>

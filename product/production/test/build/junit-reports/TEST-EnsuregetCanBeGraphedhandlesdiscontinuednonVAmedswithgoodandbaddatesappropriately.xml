@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+
+  <testsuite name="Ensure getCanBeGraphed handles discontinued non-VA meds with good and bad dates appropriately" errors="0" tests="7" failures="0" time="0.073" timestamp="Wed Nov 15 2017 16:02:14 GMT-0500 (EST)">
+    
+      <testcase assertions="0" classname="Ensure getCanBeGraphed handles discontinued non-VA meds with good and bad dates appropriately" name="Should be graphable when status is discontinued and both stop dates are defined and after overallStart" time="0.007">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Ensure getCanBeGraphed handles discontinued non-VA meds with good and bad dates appropriately" name="Should be NOT graphable when status is discontinued and both stop dates are undefined" time="0.006">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Ensure getCanBeGraphed handles discontinued non-VA meds with good and bad dates appropriately" name="Should be NOT graphable when status is discontinued and stopped is undefined" time="0.006">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Ensure getCanBeGraphed handles discontinued non-VA meds with good and bad dates appropriately" name="Should be graphable when status is discontinued and overallStop is undefined" time="0.027">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Ensure getCanBeGraphed handles discontinued non-VA meds with good and bad dates appropriately" name="Should be NOT graphable when status is discontinued and both stop dates are before overallStart" time="0.008">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Ensure getCanBeGraphed handles discontinued non-VA meds with good and bad dates appropriately" name="Should be NOT graphable when status is discontinued and stopped is before overallStart" time="0.007">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Ensure getCanBeGraphed handles discontinued non-VA meds with good and bad dates appropriately" name="Should be graphable when status is discontinued and overallStop is before overallStart" time="0.007">
+        
+      </testcase>
+    
+  </testsuite>
+
+</testsuites>

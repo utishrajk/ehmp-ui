@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+
+  <testsuite name="Graphing group collection parse with active AND discontinued Non-Va meds" errors="0" tests="5" failures="0" time="0.046" timestamp="Wed Nov 15 2017 16:02:16 GMT-0500 (EST)">
+    
+      <testcase assertions="0" classname="Graphing group collection parse with active AND discontinued Non-Va meds" name="Will return a graphing group with two models when zero out of three overlap AND first and last are active with middle med discontinued" time="0.008">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Graphing group collection parse with active AND discontinued Non-Va meds" name="Will return a graphing group with two models when two out of three overlap AND first med is active, second and last discontinued" time="0.007">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Graphing group collection parse with active AND discontinued Non-Va meds" name="Will return a graphing group with one model when zero out of three overlap AND all discontinued - with one not graphable" time="0.008">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Graphing group collection parse with active AND discontinued Non-Va meds" name="Will return a graphing group with one model when zero out of three overlap AND all discontinued" time="0.007">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Graphing group collection parse with active AND discontinued Non-Va meds" name="Will return a graphing group with three models when three non-va meds overlap AND last med is discontinued" time="0.012">
+        
+      </testcase>
+    
+  </testsuite>
+
+</testsuites>

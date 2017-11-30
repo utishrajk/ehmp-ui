@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+
+  <testsuite name="Verify templateSelector returns the right templates" errors="0" tests="8" failures="0" time="0.061" timestamp="Wed Nov 15 2017 16:02:15 GMT-0500 (EST)">
+    
+      <testcase assertions="0" classname="Verify templateSelector returns the right templates" name="should return the immunizationTemplate" time="0.011">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Verify templateSelector returns the right templates" name="Should return the emergency department template " time="0.005">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Verify templateSelector returns the right templates" name="Should return the dischargedPatient template " time="0.005">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Verify templateSelector returns the right templates" name="Should return the admittedPatient template " time="0.005">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Verify templateSelector returns the right templates" name="Should return the stopCodeVisit template " time="0.005">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Verify templateSelector returns the right templates" name="Should return the defaultVisit template " time="0.013">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Verify templateSelector returns the right templates" name="Should return the consult template " time="0.006">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Verify templateSelector returns the right templates" name="Should return the procedure template " time="0.006">
+        
+      </testcase>
+    
+  </testsuite>
+
+</testsuites>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+
+  <testsuite name="Determine the sig to return" errors="0" tests="27" failures="0" time="0.231" timestamp="Wed Nov 15 2017 16:02:13 GMT-0500 (EST)">
+    
+      <testcase assertions="0" classname="Determine the sig to return" name="Should return the caconcatenation of dose, units, routeName, scheduleName complexDuration, and complexConjunction only when they all exist except for the last object complexConjunction(Complex Medication)" time="0.006">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Determine the sig to return" name="Should return dose, unit routeName, scheduleName for non complex med and all fields must exist" time="0.007">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Determine the sig to return" name="Should return the sig whenever a complex medication with complexConjunction equal to T and complexDuration is an empty string" time="0.013">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Determine the sig to return" name="should return the concatenation of suppliedName, volume from products[] and routeName, duration since ivRate is missing and scheduleName from dosages for IV medications" time="0.01">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Determine the sig to return" name="should return the concatenation of the suppliedNames from products array and volume, routeName, ivRate, and scheduleName is missing so Continuous is used instead for IV medications" time="0.008">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Determine the sig to return" name="should return the concatenation of the suppliedNames from products array and volume, routeName, duration, and scheduleName but no ivRate for IV medications" time="0.007">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Determine the sig to return" name="should return the concatenation of the suppliedNames from products array and volume, routeName, ivRate, and scheduleName for IV medications but suppliedName is missing for one of the objects so it uses ingredientName for an IV medication" time="0.007">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Determine the sig to return" name="should return name when suppliedName and ingredientName are missing for one of the objects and sig, summary, and qualifiedName are missing also for an IV medication" time="0.007">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Determine the sig to return" name="should return qualifiedName when required products[volume] is missing and there is no summary for an IV medication" time="0.007">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Determine the sig to return" name="should return the summary when there is only ONE product and products[volume] is missing for an IV medication" time="0.007">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Determine the sig to return" name="should return the summary when products[volume] is missing for an IV medication" time="0.006">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Determine the sig to return" name="should return the summary when products[suppliedName and ingrdientName] are missing for an IV medication" time="0.011">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Determine the sig to return" name="should return No Data when any required products[suppliedName or volume] fields and sig, summary, and name are missing for an IV medication" time="0.005">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Determine the sig to return" name="should return the concatenation of the suppliedNames, volume from products array and routeName, ivRate (missing), duration and scheduleName for IV medications" time="0.006">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Determine the sig to return" name="should return the summary when dosages[(ivRate and duration)] fields) are missing and all products[] required fields are present" time="0.006">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Determine the sig to return" name="should return name for IV medications that is missing dosages[(ivRate and duration)] fields, sig and summary with all required fields from products[] present" time="0.006">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Determine the sig to return" name="should return no data for IV medications that are missing any required dosages[routeName or (ivRate or duration)] fields, sig, summary, qualifiedName and name" time="0.008">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Determine the sig to return" name="should return the suppliedName concatenate with the sig when it&#39;s not an IV or complex medication and there is no dosages[] or dosages array is missing some data" time="0.013">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Determine the sig to return" name="should return the suppliedName only when there is no sig and it&#39;s not an IV or complex medication and there is no dosages[]" time="0.008">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Determine the sig to return" name="Should return &#39;No Data&#39; when there is no sig, summary, qualifiedName, name, doesn&#39;t meet the IV and complex medication criterias" time="0.006">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Determine the sig to return" name="should return ingredientName concatenate with sig when it&#39;s not a complex or IV medication" time="0.006">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Determine the sig to return" name="should return sig when it&#39;s not a complex or IV medication, missing suppliedName and ingredientName" time="0.006">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Determine the sig to return" name="should return sig when it&#39;s not a complex or IV medication and products is undefined" time="0.017">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Determine the sig to return" name="should return summary when it&#39;s not a complex or IV medication, missing suppliedName, ingredientName and sig" time="0.006">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Determine the sig to return" name="should return qualifiedName when it&#39;s not a complex or IV medication, missing suppliedName, ingredientName, sig and summary" time="0.005">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Determine the sig to return" name="should return name when it&#39;s not a complex or IV medication, missing suppliedName, ingredientName, sig, summary, and qualifiedName" time="0.013">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Determine the sig to return" name="should return no data when it&#39;s not a complex or IV medication, missing suppliedName, ingredientName, sig, summary, qualifiedName and name" time="0.006">
+        
+      </testcase>
+    
+  </testsuite>
+
+</testsuites>

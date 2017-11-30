@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+
+  <testsuite name="Determine the Order Uid without colon" errors="0" tests="1" failures="0" time="0.007" timestamp="Wed Nov 15 2017 16:02:13 GMT-0500 (EST)">
+    
+      <testcase assertions="0" classname="Determine the Order Uid without colon" name="Should return 35739" time="0.005">
+        
+      </testcase>
+    
+  </testsuite>
+
+</testsuites>

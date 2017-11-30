@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+
+  <testsuite name="Determine the number of days of supply" errors="0" tests="1" failures="0" time="0.014" timestamp="Wed Nov 15 2017 16:02:13 GMT-0500 (EST)">
+    
+      <testcase assertions="0" classname="Determine the number of days of supply" name="Should return &#39;7&#39; for daysSupply" time="0.013">
+        
+      </testcase>
+    
+  </testsuite>
+
+</testsuites>

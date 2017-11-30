@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+
+  <testsuite name="Determine if the medication has fill info to disply" errors="0" tests="4" failures="0" time="0.034" timestamp="Wed Nov 15 2017 16:02:13 GMT-0500 (EST)">
+    
+      <testcase assertions="0" classname="Determine if the medication has fill info to disply" name="Should return true if it is an Outpatient med with fillsAllowed data" time="0.006">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Determine if the medication has fill info to disply" name="Should return false if it is an Outpatient med without fillsAllowed data" time="0.006">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Determine if the medication has fill info to disply" name="Should return true if it is a Supply med with fillsAllowed data" time="0.014">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Determine if the medication has fill info to disply" name="Should return false if it is a Supply med without fillsAllowed data" time="0.005">
+        
+      </testcase>
+    
+  </testsuite>
+
+</testsuites>

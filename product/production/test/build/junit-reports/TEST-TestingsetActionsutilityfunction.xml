@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+
+  <testsuite name="Testing setActions utility function" errors="0" tests="1" failures="0" time="0.009" timestamp="Wed Nov 15 2017 16:02:16 GMT-0500 (EST)">
+    
+      <testcase assertions="0" classname="Testing setActions utility function" name="Should build model properly for given signals" time="0.006">
+        
+      </testcase>
+    
+  </testsuite>
+
+</testsuites>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+
+  <testsuite name="Test writeback utility buildVital" errors="0" tests="7" failures="0" time="0.05" timestamp="Wed Nov 15 2017 16:02:17 GMT-0500 (EST)">
+    
+      <testcase assertions="0" classname="Test writeback utility buildVital" name="Should test building individual vital with no units" time="0.006">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Test writeback utility buildVital" name="Should test building individual vital with units" time="0.006">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Test writeback utility buildVital" name="Should test building individual vital with pass" time="0.006">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Test writeback utility buildVital" name="Should test building individual vital with refusal" time="0.007">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Test writeback utility buildVital" name="Should test building individual vital being unavailable" time="0.006">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Test writeback utility buildVital" name="Should test building individual vital with pulse oximetry special case" time="0.007">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Test writeback utility buildVital" name="Should write pain value as 99 when unable to respond is checked" time="0.006">
+        
+      </testcase>
+    
+  </testsuite>
+
+</testsuites>

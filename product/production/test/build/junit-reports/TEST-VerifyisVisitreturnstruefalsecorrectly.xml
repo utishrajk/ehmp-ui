@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+
+  <testsuite name="Verify isVisit returns true/false correctly" errors="0" tests="4" failures="0" time="0.035" timestamp="Wed Nov 15 2017 16:02:15 GMT-0500 (EST)">
+    
+      <testcase assertions="0" classname="Verify isVisit returns true/false correctly" name="should return true when kind is visit" time="0.014">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Verify isVisit returns true/false correctly" name="should return true when kind is admission" time="0.006">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Verify isVisit returns true/false correctly" name="should return true when the model is a Backbone.Model" time="0.007">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Verify isVisit returns true/false correctly" name="should return false when kind is not visit or admission" time="0.007">
+        
+      </testcase>
+    
+  </testsuite>
+
+</testsuites>

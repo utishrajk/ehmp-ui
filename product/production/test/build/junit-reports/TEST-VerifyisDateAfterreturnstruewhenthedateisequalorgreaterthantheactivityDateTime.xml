@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+
+  <testsuite name="Verify isDateAfter returns true when the date is equal or greater than the activityDateTime" errors="0" tests="5" failures="0" time="0.046" timestamp="Wed Nov 15 2017 16:02:15 GMT-0500 (EST)">
+    
+      <testcase assertions="0" classname="Verify isDateAfter returns true when the date is equal or greater than the activityDateTime" name="should return false when date is before activityDateTime" time="0.006">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Verify isDateAfter returns true when the date is equal or greater than the activityDateTime" name="should return true when date is equal to activityDateTime" time="0.01">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Verify isDateAfter returns true when the date is equal or greater than the activityDateTime" name="should return true when date is after activityDateTime" time="0.015">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Verify isDateAfter returns true when the date is equal or greater than the activityDateTime" name="should return false when undefined" time="0.006">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Verify isDateAfter returns true when the date is equal or greater than the activityDateTime" name="should return false when activityDateTime is undefined" time="0.006">
+        
+      </testcase>
+    
+  </testsuite>
+
+</testsuites>

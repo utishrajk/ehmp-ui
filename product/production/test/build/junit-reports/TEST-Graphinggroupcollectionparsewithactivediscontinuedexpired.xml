@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+
+  <testsuite name="Graphing group collection parse with active, discontinued, expired" errors="0" tests="8" failures="0" time="0.101" timestamp="Wed Nov 15 2017 16:02:16 GMT-0500 (EST)">
+    
+      <testcase assertions="0" classname="Graphing group collection parse with active, discontinued, expired" name="Will return a graphing group with four models and a non-graphable med removed" time="0.013">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Graphing group collection parse with active, discontinued, expired" name="Will return a graphing group with four models when an expired med has stopped before overallStart" time="0.009">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Graphing group collection parse with active, discontinued, expired" name="Will return a graphing group with three models when an earlier expired med gets grouped with a non-VA active med" time="0.018">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Graphing group collection parse with active, discontinued, expired" name="Will return a graphing group with four models when an earlier expired med gets grouped with a non-VA active med, pending placed before an expired med" time="0.011">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Graphing group collection parse with active, discontinued, expired" name="Will return a graphing group with four models when an earlier expired med gets grouped with a non-VA active med, pending placed before a discontinued med" time="0.009">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Graphing group collection parse with active, discontinued, expired" name="Will return a graphing group with four models when an earlier expired med gets grouped with a non-VA active med, pending placed before an expired and discontinued med" time="0.011">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Graphing group collection parse with active, discontinued, expired" name="Will return a graphing group with three models when active med is newest, pending in middle and discontinued last" time="0.014">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Graphing group collection parse with active, discontinued, expired" name="Will return a graphing group with seven models when three overlap, and three pending" time="0.01">
+        
+      </testcase>
+    
+  </testsuite>
+
+</testsuites>

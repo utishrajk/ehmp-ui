@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+
+  <testsuite name="cdsAdviceUtil" errors="0" tests="4" failures="0" time="0.032" timestamp="Wed Nov 15 2017 16:02:12 GMT-0500 (EST)">
+    
+      <testcase assertions="0" classname="cdsAdviceUtil" name="method getTypeText returns a string for type" time="0.012">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="cdsAdviceUtil" name="method getPriorityText returns a string for priority" time="0.006">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="cdsAdviceUtil" name="method getPriorityCSS should return a string with the CSS class for the corresponding priority" time="0.006">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="cdsAdviceUtil" name="method formatDetailText returns a string without multiple space characters" time="0.006">
+        
+      </testcase>
+    
+  </testsuite>
+
+</testsuites>

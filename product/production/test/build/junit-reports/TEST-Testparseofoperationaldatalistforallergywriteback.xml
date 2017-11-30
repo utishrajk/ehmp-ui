@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+
+  <testsuite name="Test parse of operational data list for allergy writeback " errors="0" tests="2" failures="0" time="0.015" timestamp="Wed Nov 15 2017 16:02:12 GMT-0500 (EST)">
+    
+      <testcase assertions="0" classname="Test parse of operational data list for allergy writeback " name="should validate nature of reaction operational list" time="0.007">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Test parse of operational data list for allergy writeback " name="should validate severity operational list" time="0.008">
+        
+      </testcase>
+    
+  </testsuite>
+
+</testsuites>

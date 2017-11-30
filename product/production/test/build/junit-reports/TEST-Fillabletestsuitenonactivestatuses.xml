@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+
+  <testsuite name="Fillable test suite - non-active statuses" errors="0" tests="2" failures="0" time="0.016" timestamp="Wed Nov 15 2017 16:02:14 GMT-0500 (EST)">
+    
+      <testcase assertions="0" classname="Fillable test suite - non-active statuses" name="Confirm active with no refills" time="0.007">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Fillable test suite - non-active statuses" name="Confirm pending" time="0.009">
+        
+      </testcase>
+    
+  </testsuite>
+
+</testsuites>

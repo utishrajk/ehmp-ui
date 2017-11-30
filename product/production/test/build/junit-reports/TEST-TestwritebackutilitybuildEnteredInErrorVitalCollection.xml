@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+
+  <testsuite name="Test writeback utility - buildEnteredInErrorVitalCollection" errors="0" tests="3" failures="0" time="0.026" timestamp="Wed Nov 15 2017 16:02:17 GMT-0500 (EST)">
+    
+      <testcase assertions="0" classname="Test writeback utility - buildEnteredInErrorVitalCollection" name="Should not include BMI vitals" time="0.006">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Test writeback utility - buildEnteredInErrorVitalCollection" name="Should not include vitals from a differnt site" time="0.012">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Test writeback utility - buildEnteredInErrorVitalCollection" name="Should include vitals from same site and check appropriate vital" time="0.007">
+        
+      </testcase>
+    
+  </testsuite>
+
+</testsuites>

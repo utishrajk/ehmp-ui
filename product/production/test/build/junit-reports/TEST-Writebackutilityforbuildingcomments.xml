@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+
+  <testsuite name="Writeback utility for building comments" errors="0" tests="6" failures="0" time="0.046" timestamp="Wed Nov 15 2017 16:02:16 GMT-0500 (EST)">
+    
+      <testcase assertions="0" classname="Writeback utility for building comments" name="Should return empty array for no comments" time="0.006">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Writeback utility for building comments" name="Should add new comments correctly" time="0.007">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Writeback utility for building comments" name="Should delete comments correctly" time="0.01">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Writeback utility for building comments" name="Should handle changing comment strings" time="0.006">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Writeback utility for building comments" name="Should handle a variation of adds, deletes and edits" time="0.006">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Writeback utility for building comments" name="Should handle filtering out of other user comments" time="0.008">
+        
+      </testcase>
+    
+  </testsuite>
+
+</testsuites>

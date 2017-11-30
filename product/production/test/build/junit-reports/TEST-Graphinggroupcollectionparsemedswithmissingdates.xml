@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+
+  <testsuite name="Graphing group collection parse meds with missing dates" errors="0" tests="4" failures="0" time="0.056" timestamp="Wed Nov 15 2017 16:02:16 GMT-0500 (EST)">
+    
+      <testcase assertions="0" classname="Graphing group collection parse meds with missing dates" name="Will return a graphing group with one model when all meds are missing dates" time="0.008">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Graphing group collection parse meds with missing dates" name="Will return a graphing group with two models when one med is pending with missing end dates and remaining meds have missing dates" time="0.027">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Graphing group collection parse meds with missing dates" name="Will return a graphing group with two models when one med is pending with missing start and end dates and remaining meds have missing dates" time="0.008">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Graphing group collection parse meds with missing dates" name="Will return a graphing group with three models when one med an active, Non-Va and pending with missing date, one Non-Va active, and remaining meds have missing dates" time="0.01">
+        
+      </testcase>
+    
+  </testsuite>
+
+</testsuites>

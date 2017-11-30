@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+
+  <testsuite name="Determine the status of a medication order" errors="0" tests="7" failures="0" time="0.05" timestamp="Wed Nov 15 2017 16:02:13 GMT-0500 (EST)">
+    
+      <testcase assertions="0" classname="Determine the status of a medication order" name="should return active" time="0.006">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Determine the status of a medication order" name="should return expired" time="0.006">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Determine the status of a medication order" name="should return discontinued" time="0.01">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Determine the status of a medication order" name="should return discontinued/edit" time="0.007">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Determine the status of a medication order" name="should return pending" time="0.006">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Determine the status of a medication order" name="should return undefined" time="0.006">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Determine the status of a medication order" name="should return empty string" time="0.007">
+        
+      </testcase>
+    
+  </testsuite>
+
+</testsuites>

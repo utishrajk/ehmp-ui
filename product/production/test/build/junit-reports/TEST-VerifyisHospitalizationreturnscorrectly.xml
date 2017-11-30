@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+
+  <testsuite name="Verify .isHospitalization returns correctly." errors="0" tests="4" failures="0" time="0.025" timestamp="Wed Nov 15 2017 16:02:15 GMT-0500 (EST)">
+    
+      <testcase assertions="0" classname="Verify .isHospitalization returns correctly." name="should return false when category Code is not an encounter" time="0.005">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Verify .isHospitalization returns correctly." name="should return true when categoryCode is an encounter" time="0.005">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Verify .isHospitalization returns correctly." name="should return false when categoryCode is an empty string" time="0.007">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Verify .isHospitalization returns correctly." name="should return false when categoryCode undefined" time="0.006">
+        
+      </testcase>
+    
+  </testsuite>
+
+</testsuites>

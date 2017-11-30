@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+
+  <testsuite name="Verify parse for clinicians role A and adds authorDisplayName, author, authorUid" errors="0" tests="5" failures="0" time="0.039" timestamp="Wed Nov 15 2017 16:02:16 GMT-0500 (EST)">
+    
+      <testcase assertions="0" classname="Verify parse for clinicians role A and adds authorDisplayName, author, authorUid" name="should return true when input data do not has authorDisplayName field" time="0.006">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Verify parse for clinicians role A and adds authorDisplayName, author, authorUid" name="should return true after parse function when data has authorDisplayName field" time="0.012">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Verify parse for clinicians role A and adds authorDisplayName, author, authorUid" name="should return correct value of authorDisplayName after parse function" time="0.007">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Verify parse for clinicians role A and adds authorDisplayName, author, authorUid" name="should return correct value of author after parse function" time="0.007">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Verify parse for clinicians role A and adds authorDisplayName, author, authorUid" name="should return correct value of authorUid after parse function" time="0.006">
+        
+      </testcase>
+    
+  </testsuite>
+
+</testsuites>

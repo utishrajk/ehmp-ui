@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+
+  <testsuite name="Determine if the search parameters validator recognizes invalid combinations of search parameters" errors="0" tests="9" failures="0" time="0.073" timestamp="Wed Nov 15 2017 16:02:15 GMT-0500 (EST)">
+    
+      <testcase assertions="0" classname="Determine if the search parameters validator recognizes invalid combinations of search parameters" name="Should return false (no search parameters)" time="0.005">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Determine if the search parameters validator recognizes invalid combinations of search parameters" name="Should return false (last name)" time="0.005">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Determine if the search parameters validator recognizes invalid combinations of search parameters" name="Should return false (first name)" time="0.005">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Determine if the search parameters validator recognizes invalid combinations of search parameters" name="Should return false (DOB)" time="0.02">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Determine if the search parameters validator recognizes invalid combinations of search parameters" name="Should return false (SSN)" time="0.006">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Determine if the search parameters validator recognizes invalid combinations of search parameters" name="Should return false (first name + DOB)" time="0.005">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Determine if the search parameters validator recognizes invalid combinations of search parameters" name="Should return false (first name + SSN)" time="0.007">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Determine if the search parameters validator recognizes invalid combinations of search parameters" name="Should return false (DOB + SSN)" time="0.007">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Determine if the search parameters validator recognizes invalid combinations of search parameters" name="Should return false (first name + DOB + SSN)" time="0.007">
+        
+      </testcase>
+    
+  </testsuite>
+
+</testsuites>

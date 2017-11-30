@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+
+  <testsuite name="Test overall form validation function" errors="0" tests="2" failures="0" time="0.02" timestamp="Wed Nov 15 2017 16:02:16 GMT-0500 (EST)">
+    
+      <testcase assertions="0" classname="Test overall form validation function" name="Should test invalid form entry" time="0.006">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Test overall form validation function" name="Should test valid form entry" time="0.013">
+        
+      </testcase>
+    
+  </testsuite>
+
+</testsuites>

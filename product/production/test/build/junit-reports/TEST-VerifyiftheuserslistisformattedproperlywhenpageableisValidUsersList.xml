@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+
+  <testsuite name="Verify if the users list is formatted properly when pageable (isValidUsersList):" errors="0" tests="6" failures="0" time="0.055" timestamp="Wed Nov 15 2017 16:02:16 GMT-0500 (EST)">
+    
+      <testcase assertions="0" classname="Verify if the users list is formatted properly when pageable (isValidUsersList):" name="should return false when the returned user collection object is undefined" time="0.01">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Verify if the users list is formatted properly when pageable (isValidUsersList):" name="should return false when the returned user collection object object has no data attribute" time="0.007">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Verify if the users list is formatted properly when pageable (isValidUsersList):" name="should return false when the returned user collection object is pageable and has empty fullCollection attribute" time="0.007">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Verify if the users list is formatted properly when pageable (isValidUsersList):" name="should return false when the returned user collection object is pageable and has fullCollection with models object" time="0.006">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Verify if the users list is formatted properly when pageable (isValidUsersList):" name="should return false when the returned user collection object is pageable and has fullCollection with models empty array" time="0.006">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Verify if the users list is formatted properly when pageable (isValidUsersList):" name="should return true when the returned user collection object is pageable and has fullCollection with model array of objects" time="0.017">
+        
+      </testcase>
+    
+  </testsuite>
+
+</testsuites>

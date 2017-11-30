@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+
+  <testsuite name="Verify getDisplayType returns the appropriate type value" errors="0" tests="3" failures="0" time="0.026" timestamp="Wed Nov 15 2017 16:02:15 GMT-0500 (EST)">
+    
+      <testcase assertions="0" classname="Verify getDisplayType returns the appropriate type value" name="should return &#39;appointment&#39; when the kind is visit and the uid is an appointment uid" time="0.006">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Verify getDisplayType returns the appropriate type value" name="should return &#39;visit&#39; when the kind is visit and the uid is a visit uid" time="0.006">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Verify getDisplayType returns the appropriate type value" name="should return the kind when the kind is not visit" time="0.013">
+        
+      </testcase>
+    
+  </testsuite>
+
+</testsuites>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+
+  <testsuite name="Determine the value of properties from products array" errors="0" tests="7" failures="0" time="0.05" timestamp="Wed Nov 15 2017 16:02:13 GMT-0500 (EST)">
+    
+      <testcase assertions="0" classname="Determine the value of properties from products array" name="should return the drugClassName" time="0.006">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Determine the value of properties from products array" name="should return the ingredientCodeName" time="0.006">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Determine the value of properties from products array" name="should return the strength" time="0.005">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Determine the value of properties from products array" name="should return the volume" time="0.008">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Determine the value of properties from products array" name="should return &#39;no data&#39; when a property is undefined" time="0.006">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Determine the value of properties from products array" name="should return &#39;no data&#39; when products is an empty array" time="0.01">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Determine the value of properties from products array" name="should return &#39;no data&#39; when products is undefined" time="0.006">
+        
+      </testcase>
+    
+  </testsuite>
+
+</testsuites>

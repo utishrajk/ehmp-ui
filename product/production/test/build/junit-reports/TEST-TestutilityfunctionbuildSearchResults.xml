@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+
+  <testsuite name="Test utility function buildSearchResults" errors="0" tests="2" failures="0" time="0.016" timestamp="Wed Nov 15 2017 16:02:15 GMT-0500 (EST)">
+    
+      <testcase assertions="0" classname="Test utility function buildSearchResults" name="Should return an empty collection if there are no results" time="0.006">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Test utility function buildSearchResults" name="Should return results nested and sorted correctly" time="0.009">
+        
+      </testcase>
+    
+  </testsuite>
+
+</testsuites>

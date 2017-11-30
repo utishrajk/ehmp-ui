@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+
+  <testsuite name="Test utility function getClinic" errors="0" tests="2" failures="0" time="0.013" timestamp="Wed Nov 15 2017 16:02:15 GMT-0500 (EST)">
+    
+      <testcase assertions="0" classname="Test utility function getClinic" name="Should return empty list ofnot items in response" time="0.006">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Test utility function getClinic" name="Should return the proper clincs" time="0.006">
+        
+      </testcase>
+    
+  </testsuite>
+
+</testsuites>

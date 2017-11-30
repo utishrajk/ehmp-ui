@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+
+  <testsuite name="Ensure fallsWithinRange handles overallStart and stopped correctly" errors="0" tests="12" failures="0" time="0.103" timestamp="Wed Nov 15 2017 16:02:13 GMT-0500 (EST)">
+    
+      <testcase assertions="0" classname="Ensure fallsWithinRange handles overallStart and stopped correctly" name="Should fall within range when overallStart and stopped are both within range" time="0.008">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Ensure fallsWithinRange handles overallStart and stopped correctly" name="Should fall within range when it is non-VA, active, and stop dates undefined" time="0.015">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Ensure fallsWithinRange handles overallStart and stopped correctly" name="Should fall within range when it is non-VA, active, and stopped is before overallStart" time="0.007">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Ensure fallsWithinRange handles overallStart and stopped correctly" name="Should fall within range when it is non-VA, active, and overallStop is before overallStart" time="0.006">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Ensure fallsWithinRange handles overallStart and stopped correctly" name="Should fall within range when it is non-VA, active, and both stop dates are before overallStart" time="0.007">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Ensure fallsWithinRange handles overallStart and stopped correctly" name="Should fall within range when overallStart is the same day as the range start date" time="0.008">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Ensure fallsWithinRange handles overallStart and stopped correctly" name="Should fall within range when stopped is the same day as the range end date" time="0.006">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Ensure fallsWithinRange handles overallStart and stopped correctly" name="Should fall within range when overallStart is before range and stopped is within range" time="0.006">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Ensure fallsWithinRange handles overallStart and stopped correctly" name="Should fall within range when overallStart is within range and stop is after range" time="0.006">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Ensure fallsWithinRange handles overallStart and stopped correctly" name="Should fall within range when overallStart is before range and stopped is after range" time="0.016">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Ensure fallsWithinRange handles overallStart and stopped correctly" name="Should NOT fall within range when start/stop are both after range" time="0.007">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Ensure fallsWithinRange handles overallStart and stopped correctly" name="Should NOT fall within range when overallStart and stopped are both before range and stopped is NOT within 6 months of range" time="0.008">
+        
+      </testcase>
+    
+  </testsuite>
+
+</testsuites>

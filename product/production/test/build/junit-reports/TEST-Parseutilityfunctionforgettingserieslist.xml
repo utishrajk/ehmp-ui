@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+
+  <testsuite name="Parse utility function for getting series list" errors="0" tests="2" failures="0" time="0.013" timestamp="Wed Nov 15 2017 16:02:12 GMT-0500 (EST)">
+    
+      <testcase assertions="0" classname="Parse utility function for getting series list" name="Getting list with no max series value should give default list" time="0.006">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Parse utility function for getting series list" name="Getting list with max series value should give default list with extra values" time="0.006">
+        
+      </testcase>
+    
+  </testsuite>
+
+</testsuites>

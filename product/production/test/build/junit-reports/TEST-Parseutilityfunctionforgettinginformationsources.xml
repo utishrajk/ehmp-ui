@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+
+  <testsuite name="Parse utility function for getting information sources" errors="0" tests="4" failures="0" time="0.034" timestamp="Wed Nov 15 2017 16:02:12 GMT-0500 (EST)">
+    
+      <testcase assertions="0" classname="Parse utility function for getting information sources" name="Getting info sources with no response should give empty array" time="0.006">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Parse utility function for getting information sources" name="Getting info sources with valid response" time="0.016">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Parse utility function for getting information sources" name="Getting info sources with valid response and proper string formatting" time="0.005">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Parse utility function for getting information sources" name="Filter out info source for new immunization record" time="0.005">
+        
+      </testcase>
+    
+  </testsuite>
+
+</testsuites>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+
+  <testsuite name="Determine if a given value is NaN" errors="0" tests="3" failures="0" time="0.02" timestamp="Wed Nov 15 2017 16:02:15 GMT-0500 (EST)">
+    
+      <testcase assertions="0" classname="Determine if a given value is NaN" name="should return true because value is not a number" time="0.007">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Determine if a given value is NaN" name="should return false because value is a number" time="0.006">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Determine if a given value is NaN" name="should return false because value is a number" time="0.005">
+        
+      </testcase>
+    
+  </testsuite>
+
+</testsuites>

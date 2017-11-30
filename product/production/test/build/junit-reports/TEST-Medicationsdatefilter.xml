@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+
+  <testsuite name="Medications date filter" errors="0" tests="6" failures="0" time="0.051" timestamp="Wed Nov 15 2017 16:02:14 GMT-0500 (EST)">
+    
+      <testcase assertions="0" classname="Medications date filter" name="will call filterBy when new meds are set on the collection" time="0.009">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Medications date filter" name="will call filterBy when an existing med is set with changed attributes" time="0.009">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Medications date filter" name="will not call filterBy when set is called with no actual changes" time="0.008">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Medications date filter" name="will not call filterBy when set is called with logically equal models" time="0.007">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Medications date filter" name="will call filterBy when a new med is added" time="0.007">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Medications date filter" name="will call filterBy when a med is removed" time="0.007">
+        
+      </testcase>
+    
+  </testsuite>
+
+</testsuites>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+
+  <testsuite name="Ensure getEarlierStopAsMoment() handles unexpected dates appropriately" errors="0" tests="5" failures="0" time="0.042" timestamp="Wed Nov 15 2017 16:02:13 GMT-0500 (EST)">
+    
+      <testcase assertions="0" classname="Ensure getEarlierStopAsMoment() handles unexpected dates appropriately" name="Should NOT return a valid moment when stopped and overallStop are undefined" time="0.006">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Ensure getEarlierStopAsMoment() handles unexpected dates appropriately" name="Should return a valid moment when stopped is undefined and overallStop is defined" time="0.007">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Ensure getEarlierStopAsMoment() handles unexpected dates appropriately" name="Should return a valid moment when overallStop is undefined and stopped is defined" time="0.006">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Ensure getEarlierStopAsMoment() handles unexpected dates appropriately" name="Should return overallStop when stopped is before overallStart and overallStop is after overallStart" time="0.013">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Ensure getEarlierStopAsMoment() handles unexpected dates appropriately" name="Should return stopped when overallStop is before overallStart and stopped is after overallStart" time="0.009">
+        
+      </testcase>
+    
+  </testsuite>
+
+</testsuites>

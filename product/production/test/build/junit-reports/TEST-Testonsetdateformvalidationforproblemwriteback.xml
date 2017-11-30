@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+
+  <testsuite name="Test on-set date form validation for problem writeback" errors="0" tests="6" failures="0" time="0.039" timestamp="Wed Nov 15 2017 16:02:15 GMT-0500 (EST)">
+    
+      <testcase assertions="0" classname="Test on-set date form validation for problem writeback" name="should invalidate future on-set date (MM/DD/YYYY)" time="0.006">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Test on-set date form validation for problem writeback" name="should validate past on-set date (MM/DD/YYYY)" time="0.006">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Test on-set date form validation for problem writeback" name="should invalidate future fuzzy on-set date (MM/YYYY)" time="0.006">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Test on-set date form validation for problem writeback" name="should validate past fuzzy on-set date (MM/YYYY)" time="0.006">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Test on-set date form validation for problem writeback" name="should invalidate future fuzzy on-set date (YYYY)" time="0.006">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Test on-set date form validation for problem writeback" name="should validate past fuzzy on-set date (YYYY)" time="0.006">
+        
+      </testcase>
+    
+  </testsuite>
+
+</testsuites>

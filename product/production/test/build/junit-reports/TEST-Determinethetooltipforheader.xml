@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+
+  <testsuite name="Determine the tooltip for header" errors="0" tests="8" failures="0" time="0.067" timestamp="Wed Nov 15 2017 16:02:14 GMT-0500 (EST)">
+    
+      <testcase assertions="0" classname="Determine the tooltip for header" name="Should be the tooltip for the medication name" time="0.007">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Determine the tooltip for header" name="Should be the tooltip for the medication sig" time="0.006">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Determine the tooltip for header" name="Should be the tooltip for the Outpatient medication fillable" time="0.013">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Determine the tooltip for header" name="Should be the tooltip for the Non-Va medication fillable" time="0.007">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Determine the tooltip for header" name="Should be the tooltip for the IV medication fillable" time="0.006">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Determine the tooltip for header" name="Should be the tooltip for the Inpatient medication fillable" time="0.006">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Determine the tooltip for header" name="Should be the tooltip for the Inpatient medication fillable" time="0.007">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Determine the tooltip for header" name="Should be the tooltip for the Inpatient medication fillable" time="0.011">
+        
+      </testcase>
+    
+  </testsuite>
+
+</testsuites>

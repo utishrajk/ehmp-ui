@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+
+  <testsuite name="Validation for administering provider" errors="0" tests="3" failures="0" time="0.03" timestamp="Wed Nov 15 2017 16:02:12 GMT-0500 (EST)">
+    
+      <testcase assertions="0" classname="Validation for administering provider" name="Should pass if historical immunization" time="0.018">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Validation for administering provider" name="Should fail if administered provider is not valid" time="0.006">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Validation for administering provider" name="Should pass if administered provider is valid" time="0.006">
+        
+      </testcase>
+    
+  </testsuite>
+
+</testsuites>

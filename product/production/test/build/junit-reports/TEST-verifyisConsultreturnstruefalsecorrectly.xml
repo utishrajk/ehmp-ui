@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+
+  <testsuite name="verify isConsult returns true/false correctly" errors="0" tests="4" failures="0" time="0.028" timestamp="Wed Nov 15 2017 16:02:15 GMT-0500 (EST)">
+    
+      <testcase assertions="0" classname="verify isConsult returns true/false correctly" name="should return true when kind is consult" time="0.006">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="verify isConsult returns true/false correctly" name="should return false when kind is not consult" time="0.006">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="verify isConsult returns true/false correctly" name="should return true when the model is a Backbone.Model" time="0.006">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="verify isConsult returns true/false correctly" name="should return false when kind is not defined" time="0.009">
+        
+      </testcase>
+    
+  </testsuite>
+
+</testsuites>

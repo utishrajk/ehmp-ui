@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+
+  <testsuite name="Test writeback utility buildSaveVitalsModel function" errors="0" tests="4" failures="0" time="0.032" timestamp="Wed Nov 15 2017 16:02:17 GMT-0500 (EST)">
+    
+      <testcase assertions="0" classname="Test writeback utility buildSaveVitalsModel function" name="should validate date/time given, location and user" time="0.006">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Test writeback utility buildSaveVitalsModel function" name="should validate patient pass" time="0.007">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Test writeback utility buildSaveVitalsModel function" name="should validate patient refusing on all vitals" time="0.008">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Test writeback utility buildSaveVitalsModel function" name="should validate patient unavailable on all vitals" time="0.008">
+        
+      </testcase>
+    
+  </testsuite>
+
+</testsuites>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+
+  <testsuite name="Test form validation for allergy writeback" errors="0" tests="9" failures="0" time="0.071" timestamp="Wed Nov 15 2017 16:02:12 GMT-0500 (EST)">
+    
+      <testcase assertions="0" classname="Test form validation for allergy writeback" name="should validate allergy type" time="0.007">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Test form validation for allergy writeback" name="should validate reaction date" time="0.007">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Test form validation for allergy writeback" name="should validate reaction time" time="0.006">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Test form validation for allergy writeback" name="should not validate reaction time if date is only YYYY or MM/YYYY" time="0.006">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Test form validation for allergy writeback" name="should validate isFutureDateTime function" time="0.006">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Test form validation for allergy writeback" name="should validate isFutureDateTime function for fuzzy date of type MM/YYYY" time="0.005">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Test form validation for allergy writeback" name="should validate isFutureDateTime function for fuzzy date of type MM/YYYY" time="0.015">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Test form validation for allergy writeback" name="should validate getSelectedSignsSymptoms function" time="0.008">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Test form validation for allergy writeback" name="should validate validateModel function" time="0.006">
+        
+      </testcase>
+    
+  </testsuite>
+
+</testsuites>

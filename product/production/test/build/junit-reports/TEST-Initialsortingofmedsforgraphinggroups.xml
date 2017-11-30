@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+
+  <testsuite name="Initial sorting of meds for graphing groups" errors="0" tests="11" failures="0" time="0.1" timestamp="Wed Nov 15 2017 16:02:16 GMT-0500 (EST)">
+    
+      <testcase assertions="0" classname="Initial sorting of meds for graphing groups" name="Will return 3 active VA meds sorted by earlier stop in descending order" time="0.008">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Initial sorting of meds for graphing groups" name="Will return 3 pending orders sorted by start date in descending order" time="0.007">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Initial sorting of meds for graphing groups" name="Will return 3 non-VA active meds sorted by start date in ascending order" time="0.014">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Initial sorting of meds for graphing groups" name="Will return 2 non-VA active orders before a discontinued non-VA order " time="0.006">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Initial sorting of meds for graphing groups" name="Will return one non-VA active med before 2 non-VA discontinued sorted by earlier stop date descending" time="0.006">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Initial sorting of meds for graphing groups" name="Will return 2 non-VA discontinued orders before one that cannot be graphed" time="0.006">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Initial sorting of meds for graphing groups" name="Will return a graphing group with four models and a non-graphable med removed" time="0.008">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Initial sorting of meds for graphing groups" name="Will return 1 non-VA active - then 5 active, expired, discontinued sorted by earlier stop date - then one pending" time="0.011">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Initial sorting of meds for graphing groups" name="Will return non-VA active at the top, pending at the bottom, and the rest in the middle sorted by earlier stop date descending" time="0.008">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Initial sorting of meds for graphing groups" name="Will return one non-VA active first, then assorted meds sorted by earlier stop, and 1 pending at the bottom" time="0.008">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Initial sorting of meds for graphing groups" name="Will return 1 not graphable at the bottom, below 3 pending" time="0.01">
+        
+      </testcase>
+    
+  </testsuite>
+
+</testsuites>

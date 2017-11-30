@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+
+  <testsuite name="Parse functions suite" errors="0" tests="7" failures="0" time="0.053" timestamp="Wed Nov 15 2017 16:02:16 GMT-0500 (EST)">
+    
+      <testcase assertions="0" classname="Parse functions suite" name="Test getFacilityColor sets DOD color " time="0.006">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Parse functions suite" name="Test getFacilityColor sets non-DOD color " time="0.006">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Parse functions suite" name="Test getDisplayName " time="0.006">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Parse functions suite" name="Test formattedHeight over 0.5" time="0.006">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Parse functions suite" name="Test formattedHeight under 0.5" time="0.014">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Parse functions suite" name="Test formattedHeight non-numeric value" time="0.006">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Parse functions suite" name="Test noVitalsNoRecord" time="0.006">
+        
+      </testcase>
+    
+  </testsuite>
+
+</testsuites>

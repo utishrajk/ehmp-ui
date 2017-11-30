@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+
+  <testsuite name="Ensure fallsWithinRange handles fills and admins correctly when overallStart and stopped are within 6 months of range" errors="0" tests="6" failures="0" time="0.063" timestamp="Wed Nov 15 2017 16:02:13 GMT-0500 (EST)">
+    
+      <testcase assertions="0" classname="Ensure fallsWithinRange handles fills and admins correctly when overallStart and stopped are within 6 months of range" name="Should NOT fall within range when most recent releaseDate plus days supply does NOT extend into range" time="0.009">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Ensure fallsWithinRange handles fills and admins correctly when overallStart and stopped are within 6 months of range" name="Should NOT fall within range when most recent dispenseDate plus days supply does NOT extend into range" time="0.008">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Ensure fallsWithinRange handles fills and admins correctly when overallStart and stopped are within 6 months of range" name="Should fall within range with multiple fills and most recent dispenseDate plus days supply extends into range" time="0.012">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Ensure fallsWithinRange handles fills and admins correctly when overallStart and stopped are within 6 months of range" name="Should fall within range with multiple fills and most recent releaseDate plus days supply extends into range" time="0.007">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Ensure fallsWithinRange handles fills and admins correctly when overallStart and stopped are within 6 months of range" name="Should fall within range when there are no fills and lastAdmin is within range" time="0.019">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Ensure fallsWithinRange handles fills and admins correctly when overallStart and stopped are within 6 months of range" name="Should NOT fall within range when there are no fills and lastAdmin is NOT within range" time="0.006">
+        
+      </testcase>
+    
+  </testsuite>
+
+</testsuites>

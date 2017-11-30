@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+
+  <testsuite name="Initial sort for graphing groups of meds with bad dates" errors="0" tests="3" failures="0" time="0.026" timestamp="Wed Nov 15 2017 16:02:16 GMT-0500 (EST)">
+    
+      <testcase assertions="0" classname="Initial sort for graphing groups of meds with bad dates" name="Will return 1 non-VA active at the top, then 1 active, 1 pending, and 3 not graphable at the bottom" time="0.009">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Initial sort for graphing groups of meds with bad dates" name="Will return 2 discontinued with 1 not graphable at the bottom" time="0.008">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Initial sort for graphing groups of meds with bad dates" name="Will return all meds in order when all not graphable" time="0.006">
+        
+      </testcase>
+    
+  </testsuite>
+
+</testsuites>

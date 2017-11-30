@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+
+  <testsuite name="Determine if regex validator accepts data that should be valid" errors="0" tests="6" failures="0" time="0.039" timestamp="Wed Nov 15 2017 16:02:15 GMT-0500 (EST)">
+    
+      <testcase assertions="0" classname="Determine if regex validator accepts data that should be valid" name="Should return success (valid last name)" time="0.006">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Determine if regex validator accepts data that should be valid" name="Should return success (valid first name" time="0.006">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Determine if regex validator accepts data that should be valid" name="Should return success (valid DOB 1)" time="0.006">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Determine if regex validator accepts data that should be valid" name="Should return success (valid DOB 2)" time="0.005">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Determine if regex validator accepts data that should be valid" name="Should return success (valid SSN 1)" time="0.005">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Determine if regex validator accepts data that should be valid" name="Should return success (valid SSN 2)" time="0.005">
+        
+      </testcase>
+    
+  </testsuite>
+
+</testsuites>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+
+  <testsuite name="Determine if medication is PRN or IV" errors="0" tests="4" failures="0" time="0.029" timestamp="Wed Nov 15 2017 16:02:13 GMT-0500 (EST)">
+    
+      <testcase assertions="0" classname="Determine if medication is PRN or IV" name="Should return &#39;PRN&#39; if the word exist in the scheduleName" time="0.006">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Determine if medication is PRN or IV" name="Should return &#39;PRN&#39; if &#39;as needed&#39; exist in the sig" time="0.007">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Determine if medication is PRN or IV" name="Should return &#39;IV&#39; if it isn&#39;t PRN and is of vaType &#39;v&#39;" time="0.007">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Determine if medication is PRN or IV" name="Should return false if the word PRN doesn&#39;t exist in the scheduleName or &#39;as needed&#39; in the sig and vaType isn&#39;t IV" time="0.008">
+        
+      </testcase>
+    
+  </testsuite>
+
+</testsuites>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+
+  <testsuite name="Writeback utility function for building the immunization model" errors="0" tests="6" failures="0" time="0.052" timestamp="Wed Nov 15 2017 16:02:12 GMT-0500 (EST)">
+    
+      <testcase assertions="0" classname="Writeback utility function for building the immunization model" name="Test visit model properties - first case" time="0.007">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Writeback utility function for building the immunization model" name="Test visit model properties - second case" time="0.006">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Writeback utility function for building the immunization model" name="Test visit model properties - year fuzzy date" time="0.013">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Writeback utility function for building the immunization model" name="Test visit model properties - year and month fuzzy date" time="0.007">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Writeback utility function for building the immunization model" name="Test administered immunization model properties" time="0.008">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Writeback utility function for building the immunization model" name="Test historical immunization model properties" time="0.007">
+        
+      </testcase>
+    
+  </testsuite>
+
+</testsuites>

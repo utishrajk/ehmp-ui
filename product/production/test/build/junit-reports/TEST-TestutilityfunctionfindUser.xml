@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+
+  <testsuite name="Test utility function findUser" errors="0" tests="2" failures="0" time="0.014" timestamp="Wed Nov 15 2017 16:02:15 GMT-0500 (EST)">
+    
+      <testcase assertions="0" classname="Test utility function findUser" name="Should return undefined if it cannot find the provider" time="0.006">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Test utility function findUser" name="Should return the correct provider in the list" time="0.006">
+        
+      </testcase>
+    
+  </testsuite>
+
+</testsuites>

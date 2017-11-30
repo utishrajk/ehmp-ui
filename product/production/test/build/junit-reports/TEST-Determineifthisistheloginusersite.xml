@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+
+  <testsuite name="Determine if this is the login user site" errors="0" tests="1" failures="0" time="0.008" timestamp="Wed Nov 15 2017 16:02:13 GMT-0500 (EST)">
+    
+      <testcase assertions="0" classname="Determine if this is the login user site" name="should be the login user site" time="0.007">
+        
+      </testcase>
+    
+  </testsuite>
+
+</testsuites>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+
+  <testsuite name="Graphing group collection parse with active Non-Va meds" errors="0" tests="3" failures="0" time="0.027" timestamp="Wed Nov 15 2017 16:02:16 GMT-0500 (EST)">
+    
+      <testcase assertions="0" classname="Graphing group collection parse with active Non-Va meds" name="Will return a graphing group with three models when zero out of three overlap" time="0.008">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Graphing group collection parse with active Non-Va meds" name="Will return a graphing group with three models when all are non-VA active and two overlap" time="0.008">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Graphing group collection parse with active Non-Va meds" name="Will return a graphing group with three models when three out of three overlap" time="0.01">
+        
+      </testcase>
+    
+  </testsuite>
+
+</testsuites>

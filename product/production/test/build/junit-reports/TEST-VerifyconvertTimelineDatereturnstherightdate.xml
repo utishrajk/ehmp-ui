@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+
+  <testsuite name="Verify convertTimelineDate returns the right date" errors="0" tests="3" failures="0" time="0.02" timestamp="Wed Nov 15 2017 16:02:15 GMT-0500 (EST)">
+    
+      <testcase assertions="0" classname="Verify convertTimelineDate returns the right date" name="should return undefined when date === Present" time="0.006">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Verify convertTimelineDate returns the right date" name="should return undefined when date is undefined" time="0.005">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Verify convertTimelineDate returns the right date" name="Should return 201401 when date is Jan-2014" time="0.007">
+        
+      </testcase>
+    
+  </testsuite>
+
+</testsuites>

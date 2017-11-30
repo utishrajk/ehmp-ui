@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+
+  <testsuite name="Fillable test suite - active medications" errors="0" tests="7" failures="0" time="0.059" timestamp="Wed Nov 15 2017 16:02:14 GMT-0500 (EST)">
+    
+      <testcase assertions="0" classname="Fillable test suite - active medications" name="Confirm 2d fillable time displays as days, not hours" time="0.009">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Fillable test suite - active medications" name="Confirm 60d fillable time displays as days, not months" time="0.007">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Fillable test suite - active medications" name="Confirm 61d fillable time displays as months, not days" time="0.007">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Fillable test suite - active medications" name="Confirm 730 days displays as months, not years" time="0.008">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Fillable test suite - active medications" name="Confirm 731 days displays as years, not months" time="0.015">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Fillable test suite - active medications" name="If expiration date is sooner than normal last fillable date, show fillable until expiration date (case 1)" time="0.006">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Fillable test suite - active medications" name="If expiration date is sooner than normal last fillable date, show fillable until expiration date (case 2)" time="0.006">
+        
+      </testcase>
+    
+  </testsuite>
+
+</testsuites>

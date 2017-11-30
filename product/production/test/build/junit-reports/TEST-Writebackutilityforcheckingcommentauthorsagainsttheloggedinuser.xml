@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+
+  <testsuite name="Writeback utility for checking comment authors against the logged in user" errors="0" tests="6" failures="0" time="0.039" timestamp="Wed Nov 15 2017 16:02:16 GMT-0500 (EST)">
+    
+      <testcase assertions="0" classname="Writeback utility for checking comment authors against the logged in user" name="Should fail when site is false" time="0.007">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Writeback utility for checking comment authors against the logged in user" name="Should fail when duz is undefined" time="0.007">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Writeback utility for checking comment authors against the logged in user" name="Should fail when no author on the comment" time="0.006">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Writeback utility for checking comment authors against the logged in user" name="Should fail when no duz on the comment for the logged in user site" time="0.006">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Writeback utility for checking comment authors against the logged in user" name="Should fail when no user IDs do not match" time="0.006">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Writeback utility for checking comment authors against the logged in user" name="Should pass when sites and user IDs match" time="0.007">
+        
+      </testcase>
+    
+  </testsuite>
+
+</testsuites>

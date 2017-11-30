@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+
+  <testsuite name="Test parse functions suite" errors="0" tests="8" failures="0" time="0.059" timestamp="Wed Nov 15 2017 16:02:12 GMT-0500 (EST)">
+    
+      <testcase assertions="0" classname="Test parse functions suite" name="Test getContraindicated is false" time="0.007">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Test parse functions suite" name="Test getContraindicated is true" time="0.006">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Test parse functions suite" name="Test getFacilityColor sets DOD color " time="0.012">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Test parse functions suite" name="Test getFacilityColor sets non-DOD color " time="0.007">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Test parse functions suite" name="Test getStandardizedName " time="0.005">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Test parse functions suite" name="Test getStandardizedName when null " time="0.005">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Test parse functions suite" name="Test getStandardizedName when not exists " time="0.006">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Test parse functions suite" name="Test getCommentBubble when there is a comment" time="0.006">
+        
+      </testcase>
+    
+  </testsuite>
+
+</testsuites>

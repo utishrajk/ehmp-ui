@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+
+  <testsuite name="Verify isValidDate true if the date has at least year and month" errors="0" tests="4" failures="0" time="0.027" timestamp="Wed Nov 15 2017 16:02:15 GMT-0500 (EST)">
+    
+      <testcase assertions="0" classname="Verify isValidDate true if the date has at least year and month" name="should return false when date doesn&#39;t have year and month" time="0.007">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Verify isValidDate true if the date has at least year and month" name="should return false when the date is undefined" time="0.006">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Verify isValidDate true if the date has at least year and month" name="should return true when date has a month and year" time="0.006">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Verify isValidDate true if the date has at least year and month" name="should return true when date has a month, year, day, hour, and minute" time="0.007">
+        
+      </testcase>
+    
+  </testsuite>
+
+</testsuites>

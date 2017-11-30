@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+
+  <testsuite name="Determine if getDateForChart function is getting the argument in the correct date format. Ex: yyyymmdd" errors="0" tests="2" failures="0" time="0.012" timestamp="Wed Nov 15 2017 16:02:15 GMT-0500 (EST)">
+    
+      <testcase assertions="0" classname="Determine if getDateForChart function is getting the argument in the correct date format. Ex: yyyymmdd" name="should return true if argument is in correct format" time="0.006">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Determine if getDateForChart function is getting the argument in the correct date format. Ex: yyyymmdd" name="running getDateforChart should return a date formatted as MMM DD YYYY" time="0.006">
+        
+      </testcase>
+    
+  </testsuite>
+
+</testsuites>

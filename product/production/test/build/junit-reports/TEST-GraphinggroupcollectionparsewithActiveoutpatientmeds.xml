@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+
+  <testsuite name="Graphing group collection parse with Active outpatient meds" errors="0" tests="3" failures="0" time="0.033" timestamp="Wed Nov 15 2017 16:02:16 GMT-0500 (EST)">
+    
+      <testcase assertions="0" classname="Graphing group collection parse with Active outpatient meds" name="Will return a graphing group with one model when none of them overlap" time="0.007">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Graphing group collection parse with Active outpatient meds" name="Will return a graphing group with two models when two out of three overlap" time="0.017">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Graphing group collection parse with Active outpatient meds" name="Will return a graphing group with three models when three out of three overlap" time="0.007">
+        
+      </testcase>
+    
+  </testsuite>
+
+</testsuites>

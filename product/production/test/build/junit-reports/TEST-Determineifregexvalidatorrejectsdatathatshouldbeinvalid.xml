@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+
+  <testsuite name="Determine if regex validator rejects data that should be invalid" errors="0" tests="8" failures="0" time="0.059" timestamp="Wed Nov 15 2017 16:02:15 GMT-0500 (EST)">
+    
+      <testcase assertions="0" classname="Determine if regex validator rejects data that should be invalid" name="Should return nameFormatFailure (invalid last name 1)" time="0.006">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Determine if regex validator rejects data that should be invalid" name="Should return nameFormatFailure (invalid last name 2)" time="0.006">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Determine if regex validator rejects data that should be invalid" name="Should return nameFormatFailure (invalid first name 1)" time="0.014">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Determine if regex validator rejects data that should be invalid" name="Should return nameFormatFailure (invalid first name 2)" time="0.006">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Determine if regex validator rejects data that should be invalid" name="Should return dobFormatFailure (invalid DOB 1)" time="0.006">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Determine if regex validator rejects data that should be invalid" name="Should return dobFormatFailure (invalid DOB 2)" time="0.006">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Determine if regex validator rejects data that should be invalid" name="Should return dobFormatFailure (invalid SSN 1)" time="0.006">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Determine if regex validator rejects data that should be invalid" name="Should return dobFormatFailure (invalid SSN 2)" time="0.005">
+        
+      </testcase>
+    
+  </testsuite>
+
+</testsuites>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+
+  <testsuite name="Fillable test suite - examples from F338 functional requirements" errors="0" tests="2" failures="0" time="0.011" timestamp="Wed Nov 15 2017 16:02:14 GMT-0500 (EST)">
+    
+      <testcase assertions="0" classname="Fillable test suite - examples from F338 functional requirements" name="Confirm fillable for 5m" time="0.005">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Fillable test suite - examples from F338 functional requirements" name="Confirm fillable for 2m" time="0.006">
+        
+      </testcase>
+    
+  </testsuite>
+
+</testsuites>

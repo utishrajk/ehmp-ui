@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+
+  <testsuite name="Verify isDischargedOrAdmitted returns true when discharged and false when admitted." errors="0" tests="3" failures="0" time="0.023" timestamp="Wed Nov 15 2017 16:02:15 GMT-0500 (EST)">
+    
+      <testcase assertions="0" classname="Verify isDischargedOrAdmitted returns true when discharged and false when admitted." name="should return true when stay.dischargedDateTime is not undefined" time="0.006">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Verify isDischargedOrAdmitted returns true when discharged and false when admitted." name="should return false when stay.dischargedDateTime is undefined" time="0.006">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Verify isDischargedOrAdmitted returns true when discharged and false when admitted." name="should throw an error when stay is undefined" time="0.008">
+        
+      </testcase>
+    
+  </testsuite>
+
+</testsuites>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+
+  <testsuite name="Test setPrerequisiteData function" errors="0" tests="2" failures="0" time="0.026" timestamp="Wed Nov 15 2017 16:02:17 GMT-0500 (EST)">
+    
+      <testcase assertions="0" classname="Test setPrerequisiteData function" name="Should show counts of zero when there are no prereq questions or orders" time="0.006">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Test setPrerequisiteData function" name="Should set appropriate counts and met flags" time="0.018">
+        
+      </testcase>
+    
+  </testsuite>
+
+</testsuites>

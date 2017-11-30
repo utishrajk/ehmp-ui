@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+
+  <testsuite name="Determine what category a medication belongs" errors="0" tests="9" failures="0" time="0.079" timestamp="Wed Nov 15 2017 16:02:13 GMT-0500 (EST)">
+    
+      <testcase assertions="0" classname="Determine what category a medication belongs" name="Should return Outpatient for Supply medication" time="0.006">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Determine what category a medication belongs" name="Should return Outpatient for Non-Va medication" time="0.015">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Determine what category a medication belongs" name="Should return Outpatient for Outpatient medication" time="0.006">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Determine what category a medication belongs" name="Should return Inpatient for Inpatient medication" time="0.006">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Determine what category a medication belongs" name="Should return Inpatient for IV medication" time="0.006">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Determine what category a medication belongs" name="Should return Clinical Orders for medication with IMO" time="0.007">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Determine what category a medication belongs" name="Should return Clinical Orders for medication with kind that equals &#39;Medication, Clinic Order&#39;" time="0.017">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Determine what category a medication belongs" name="Should return Clinical Orders for medication with kind that equals &#39;Medication, Clinic Order&#39;, supply and with IMO" time="0.009">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Determine what category a medication belongs" name="Should return Clinical Orders for medication with kind that equals &#39;Medication, Clinic Order&#39;, supply and with no IMO" time="0.006">
+        
+      </testcase>
+    
+  </testsuite>
+
+</testsuites>

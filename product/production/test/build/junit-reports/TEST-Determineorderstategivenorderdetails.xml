@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+
+  <testsuite name="Determine order state, given order details" errors="0" tests="6" failures="0" time="0.05" timestamp="Wed Nov 15 2017 16:02:15 GMT-0500 (EST)">
+    
+      <testcase assertions="0" classname="Determine order state, given order details" name="Should correctly identify a new, unsigned lab order" time="0.007">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Determine order state, given order details" name="Should correctly identify a signed, pending lab order" time="0.006">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Determine order state, given order details" name="Should correctly identify a discontinued pending lab order" time="0.006">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Determine order state, given order details" name="Should correctly identify a discontinued lab order" time="0.006">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Determine order state, given order details" name="Should correctly identify a cancelled lab order" time="0.015">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Determine order state, given order details" name="Should correctly identify a completed lab order" time="0.006">
+        
+      </testcase>
+    
+  </testsuite>
+
+</testsuites>

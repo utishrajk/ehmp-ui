@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+
+  <testsuite name="Determine the scheduleType of the first object" errors="0" tests="4" failures="0" time="0.027" timestamp="Wed Nov 15 2017 16:02:13 GMT-0500 (EST)">
+    
+      <testcase assertions="0" classname="Determine the scheduleType of the first object" name="Should return &#39;CONTINUOUS&#39;" time="0.006">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Determine the scheduleType of the first object" name="Should return &#39;No Data&#39; if dosages is undefined" time="0.006">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Determine the scheduleType of the first object" name="Should return &#39;No Data&#39; if dosages is empty array" time="0.006">
+        
+      </testcase>
+    
+      <testcase assertions="0" classname="Determine the scheduleType of the first object" name="Should return &#39;No Data&#39; if scheduleType is undefined" time="0.006">
+        
+      </testcase>
+    
+  </testsuite>
+
+</testsuites>
